@@ -19,7 +19,8 @@ import {
 import logo from "/home/khaled/Desktop/React/MovieApp/my-app/src/assets/image1.svg";
 import add from "/home/khaled/Desktop/React/MovieApp/my-app/src/assets/add.svg";
 import { useState } from "react";
-import PhoneMenuItems from "../../PhoneMenuItems/PhoneMenuItems";
+import PhoneMenuItems from "../PhoneMenuItems/PhoneMenuItems";
+
 
 const NavBar = () => {
   const [isClicked, setIsClicked] = useState(false);

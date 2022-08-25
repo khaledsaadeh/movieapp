@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <NavBar />
       <MainContainer>
-        <Sort></Sort>
-        <Card></Card>
+        <Sort />
+        <Card />
       </MainContainer>
       <Footer />
     </div>
